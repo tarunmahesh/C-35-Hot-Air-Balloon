@@ -7,24 +7,28 @@
     <script src="p5.play.js"></script>
     
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
 
 <script>
   // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyA0A5lH5NrQ6llrdaB085LYmsVgjrt47BQ",
-    authDomain: "real-hot-air-balloon.firebaseapp.com",
-    databaseURL: "https://real-hot-air-balloon-default-rtdb.firebaseio.com",
-    projectId: "real-hot-air-balloon",
-    storageBucket: "real-hot-air-balloon.appspot.com",
-    messagingSenderId: "566744939934",
-    appId: "1:566744939934:web:aa7e155e778dfef6e5aa8f"
+    apiKey: "AIzaSyC_pMdlEmCW2mj7J6-CcX0J4FRyuAps5IE",
+    authDomain: "hot-air-balloon-cf7fa.firebaseapp.com",
+    databaseURL: "https://hot-air-balloon-cf7fa-default-rtdb.firebaseio.com",
+    projectId: "hot-air-balloon-cf7fa",
+    storageBucket: "hot-air-balloon-cf7fa.appspot.com",
+    messagingSenderId: "555149425703",
+    appId: "1:555149425703:web:4e921b0ee207f03b386202",
+    measurementId: "G-M212R2QK1W"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 </script>
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
